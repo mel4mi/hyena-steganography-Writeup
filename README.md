@@ -1,7 +1,7 @@
 # hyena-steganography-Writeup
 
 
-Hello everyone today we will look up hyena ctf. First i download the ctf file and I put it in exiftool.
+Hello everyone today,Today i will show you how we could solve the hyena ctf. Firstly i downloaded the ctf file and I put it in exiftool.
 
 
 ```
