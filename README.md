@@ -52,3 +52,13 @@ then I remembered the password which i found and using that password I extracted
 steghide extract -sf stage.jpg -p password
 ```
 ![6.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/6.ad%C4%B1m.png)
+
+i found a zip file and unzip them
+after the unzip i found 2 file:
+1-chat.txt
+2-lpdf.pdf
+
+```
+cat chat.txt
+```
+![7.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/7.ad%C4%B1m.png)
