@@ -5,7 +5,7 @@ Hello everyone today we will look up hyena ctf. First i download the ctf file an
 
 
 ```
-  exiftool file.jpg
+  exiftool stage.jpg
   ```
   
   ![1.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/1.ad%C4%B1m.jpg)
