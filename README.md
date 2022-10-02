@@ -31,4 +31,5 @@ Hello everyone today we will look up hyena ctf. First i download the ctf file an
   
   
   
+  ![Foto](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/4.ad%C4%B1m.png)
   
