@@ -62,3 +62,32 @@ after the unzip i found 2 file:
 cat chat.txt
 ```
 ![7.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/7.ad%C4%B1m.png)
+there is the second flag here
+
+and i have to crack pdf file. In the chat file it told us that we should use john for the cracking pdf
+first i use pdf2john to get pdf's hash
+```
+pdf2john lpdf.pdf
+```
+![8.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/8.ad%C4%B1m.png)
+
+and note it as hash.txt
+
+for cracking hash :
+
+```
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+```
+
+![9.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/9.ad%C4%B1m.png)
+
+We found the pdf password
+
+You can view the file wherever you want.
+but i want to unlock password. So i used [Sodapdf](https://www.sodapdf.com/unlock-pdf/)
+
+![10.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/10.ad%C4%B1m.png)
+
+after the unlock i found the last flag in pdf
+
+![11.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/11.ad%C4%B1m.png)
