@@ -39,16 +39,16 @@ Hello everyone today we will look up hyena ctf. First i download the ctf file an
   
   so i use binwalk
   
-  '''
-  binwalk filename.jpg
-  ''''
+  ```
+  binwalk stage.jpg
+  ```
 
 ![5.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/5.ad%C4%B1m.png)
 
 there is something hidden in the photo. I tried to extract it with binwalk but the files were corrupt.
 then I remembered the password which i found and using that password I extracted the files with steghide
 
-'''
+```
 steghide extract -sf stage.jpg -p password
-'''
+```
 ![6.adım](https://github.com/mel4mi/hyena-steganography-Writeup/blob/main/6.ad%C4%B1m.png)
